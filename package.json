@@ -4,7 +4,7 @@
   "description": "Basic skeleton codebase for React/Redux/Router applications.",
   "scripts": {
     "preinstall": "npm set audit false",
-   "start": "set NODE_OPTIONS=--openssl-legacy-provider && webpack-dev-server --config webpack/dev.config.js --watch",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && webpack-dev-server --config webpack/dev.config.js --watch",
     "build": "cross-env NODE_ENV=production webpack --config webpack/prod.config.js --progress --display-error-details --color",
     "heroku-postbuild": "npm run build",
     "precommit": "eslint src",
@@ -63,6 +63,7 @@
     "react-router-dom": "5.1.2",
     "react-scripts": "^5.0.1",
     "redux": "4.0.5",
+    "redux-form": "^8.3.10",
     "sass": "^1.77.8",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.21.0",
