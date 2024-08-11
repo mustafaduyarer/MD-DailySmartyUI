@@ -13,14 +13,13 @@ import "./components/home";
 import Home from "./components/home";
 import Results from "./components/results";
 
-
 function main() {
   ReactDOM.render(
     <Provider store={createStoreWithMiddleware(reducers)}>
       <BrowserRouter>
-      <Switch>
-          <Route path='/' exact component={Home}/>
-          <Route path='/results' componet={Results}/>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/results" component={Results} />
         </Switch>
       </BrowserRouter>
     </Provider>,
