@@ -11,8 +11,9 @@ export default function (state = INIT_STATE, action) {
 
       const recentPosts = action.payload;
       return { ...state, recentPosts };
-      
+
     default:
       return state;
   }
 }
+//yorum
