@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import { SET_RECENT_POSTS } from "../actions/types";
 
 const INIT_STATE = {
@@ -16,6 +17,4 @@ export default function (state = INIT_STATE, action) {
       return state;
   }
 }
-//yorumyorumm
-//baska bir yorum
-//yorum 
+Link
